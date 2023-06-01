@@ -13,7 +13,7 @@
 	--main-color-hover: #006996;
 	--main-color-bg: #DFF6FD;
 	--main-input-bg: #17181A;
-	--main-input-hover-bg: #17181A;
+	--main-input-hover-bg: #7b7d83;
 	--main-color-border: #2F3134;
 }
 
@@ -180,6 +180,7 @@ div.dimensions-tools {
   border: 1px solid var(--main-color) !important;
   border-radius: 6px;
   transition: var(--main-transition);
+  overflow: hidden;
 }
 .gradio-button.primary:hover {
   color: #fff !important;
@@ -193,6 +194,7 @@ div.dimensions-tools {
   border-radius: 6px;
   transition: var(--main-transition);
   box-shadow: none;
+  overflow: hidden;
 }
 .gradio-button.secondary:hover {
   color: #18191C;
